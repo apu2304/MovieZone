@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import { MdLocalMovies } from "react-icons/md";
 import { MdOutlineMovieFilter } from "react-icons/md";
-import { BsFillSave2Fill } from "react-icons/bs";
 import { IoTvSharp } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 const Nav = () => {
@@ -24,9 +23,6 @@ const Nav = () => {
           </li>
           <li>
             <Link to={'/tvshowpage'}><IoTvSharp  size={24}/></Link>
-          </li>
-          <li>
-            <Link to={'/moviepage'}><BsFillSave2Fill size={23}/></Link>
           </li>
         </ul>
       </nav>
